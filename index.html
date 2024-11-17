@@ -1,36 +1,72 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Метрика</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h1 style="width: 956px">
-        Современные и стильные интерьеры для комфортной жизни
-      </h1>
-      <div class="interior">
-        <p class="image-text">
-          Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
-          разработкой и реализацией дизайн-проектов
-        </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Метрика</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/reset.css" />
+  <link rel="stylesheet" href="./style/main.css" />
+</head>
+
+<body>
+  <main>
+
+    <section>
+      <div class="hero">
+        <h1>Современные и стильные интерьеры для комфортной жизни</h1>
+        <div class="hero__interior">
+          <p class="hero__text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и
+            реализацией
+            дизайн-проектов</p>
+        </div>
       </div>
-      <h2 style="margin-top: 150px">О НАС</h2>
-      <p class="description">
-        Студия основана в 2011 году. Полностью отдаемся проектированию и
-        реализации интерьеров. К нам обращаются за уютом, индивидуальными
-        решениями и практичностью. Находим конструктивные решения для каждого
-        интерьера, вплоть до каждой детали — нацелены на результат.
-      </p>
-      <a>Посмотреть услуги</a>
-    </div>
-  </body>
+    </section>
+
+    <section>
+      <div class="about">
+        <h2>О НАС</h2>
+        <p class="about__text">
+          Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за
+          уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть
+          до каждой детали — нацелены на результат.
+        </p>
+        <a class="about__btn" href="#">Посмотреть услуги</a>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="projects">
+        <h2>ПРОЕКТЫ</h2>
+        <ul class="">
+
+          <li class="projects__list">
+            <img class="projects__red-sofa" src="./img/red sofa.png" alt="">
+            <h3 class="projects__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+            <a class="projects__more" href="#">Подробнее →</a>
+          </li>
+
+          <li class="projects__list">
+            <img class="projects__bright-room" src="./img/bright room.png" alt="">
+            <h3 class="projects__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+            <a class="projects__more" href="#">Подробнее →</a>
+          </li>
+
+          <li class="projects__list">
+            <img class="projects__black-table" src="./img/black table.png" alt="">
+            <h3 class="projects__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+            <a class="projects__more" href="#">Подробнее →</a>
+          </li>
+        </ul>
+        <a class="projects__fullscreen-btn" href="#">Смотреть все проекты</a>
+      </div>
+    </section>
+
+
+  </main>
+</body>
+
 </html>
