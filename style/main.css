@@ -30,12 +30,18 @@ h2 {
 
 }
 
+
 h3 {
   margin-top: 15px;
   width: 515px;
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
+}
+
+
+h3:last-child {
+  margin: 0;
 }
 
 .hero__interior {
@@ -56,6 +62,8 @@ h3 {
 
   color: #fff;
 }
+
+
 
 .about {
   max-width: 1150px;
@@ -83,6 +91,8 @@ h3 {
   color: white;
   text-decoration: none;
 }
+
+
 
 .projects {
   max-width: 1150px;
@@ -112,6 +122,7 @@ h3 {
   display: block;
 
   margin-top: 90px;
+  margin-bottom: 150px;
   padding: 56px;
 
   border: 1px solid #AD1818;
@@ -125,7 +136,62 @@ h3 {
 }
 
 .projects__fullscreen-btn:hover {
-
   color: white;
   background-color: #AD1818;
+}
+
+
+
+.services {
+  width: 1400px;
+
+  height: 1844px;
+  margin: 0 auto;
+  color: white;
+  background-color: #121212;
+}
+
+.services-title {
+  padding-left: 127px;
+  padding-top: 151px;
+}
+
+.services__list:first-child {
+  margin-top: 34px;
+}
+
+.services__list {
+  margin-top: 60px;
+  padding-left: 125px;
+}
+
+.services__list-text {
+  margin-top: 15px;
+  width: 678px;
+  height: 41px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+
+
+
+.bed {
+  margin: 0 auto;
+  width: 1400px;
+  height: 717px;
+  background-image: url(../img/bed.png);
+}
+
+
+.bed__text-img {
+  width: 443px;
+  padding-top: 575px;
+  padding-left: 125px;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 40px;
+  color: white;
+
 }
